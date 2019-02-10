@@ -8,7 +8,10 @@ public class Hello {
         p.weight = 66.5f;
         p.height = 1.7f;
         System.out.println(p.bmi());
-
+        int score = 88;
+        System.out.println(score < 80 || score > 90);
+        char c = 'A';
+        System.out.println(c  > 'a');
         /*int age = 19;
         Integer age2 = 19;
         char c = 'A';
@@ -20,5 +23,6 @@ public class Hello {
         boolean enroll = false;*/
 
         String name = "David";
+        name.length();
     }
 }
